@@ -52,7 +52,7 @@ class Song
   
   def self.artist_count
     a_count = {}
-    @@artists.uniq.each { |a| a_count[a] = 0 }
+    self.artists.each { |a| a_count[a] = 0 }
     @@artists.each { |art|
       a_count.keys.each { |a| a_count[a] += 1 if art == a }
     }
