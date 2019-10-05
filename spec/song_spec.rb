@@ -14,6 +14,7 @@ describe "Song" do
     Song.class_variable_set(:@@genre_count, {})
 
   end
+  
   describe "#new" do 
     it "takes in three arguments: a name, artist and genre" do 
       expect{Song.new("hit me baby one more time", "Brittany Spears", "pop")}.to_not raise_error
