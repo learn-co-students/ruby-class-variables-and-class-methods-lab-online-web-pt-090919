@@ -52,14 +52,3 @@ class Song
     artist_count
     end 
 end 
-
-# Each song has a name, an artist, and a genre
-#   - The song class should keep track of each of these. 
-# Genre Count 
-#   - Return a hash of genre keys and number values 
-# Artist Count
-#   - Return a hash of artist keys and number values 
-#
-#
-#
-#
